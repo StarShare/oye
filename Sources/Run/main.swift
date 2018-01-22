@@ -16,6 +16,9 @@ import App
 ///
 /// .run() runs the Droplet's commands, 
 /// if no command is given, it will default to "serve"
+
+import Vapor
+
 let config = try Config()
 try config.setup()
 
